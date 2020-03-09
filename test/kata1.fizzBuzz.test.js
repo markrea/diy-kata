@@ -9,9 +9,10 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(5)).toBe('Buzz');
   });
 
-  it("returns FizzBuzz when passed a multiple 3 and 5", () => {});
-    expect(fizzBuzz(15)).toBe('FizzBuzz');
-    expect(fizzBuzz(30)).toBe('FizzBuzz');
-    expect(fizzBuzz(90)).toBe('FizzBuzz');
+  it("returns FizzBuzz when passed a multiple 3 and 5", () => { 
+  expect(fizzBuzz(15)).toBe('FizzBuzz');
+  expect(fizzBuzz(30)).toBe('FizzBuzz');
+  expect(fizzBuzz(90)).toBe('FizzBuzz');});
+   
   it("returns the number when it isn't a multiple of 3 or 5", () => {});
 });
